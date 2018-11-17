@@ -1,0 +1,47 @@
+{
+    "projects": [{
+        "id": 0,
+       "project_name": "Random Quote Generator",
+       "description": "A browser app that displays random quotes.",
+       "technologies": ["JavaScript", "HTML", "CSS"],
+       "live_link": "https://timb15.github.io/Tech-Degree-Project-1/",
+       "github_link": "https://github.com/timb15/Tech-Degree-Project-1",
+       "img_urls": ["/images/project-1.jpg", "/images/project-1.1.jpg", "/images/project-1.2.jpg"]
+    },
+    {
+        "id": 1,
+        "project_name": "List Pagination",
+        "description": "Displays a list of students showing 10 per page. Has a search feature as well.",
+        "technologies": ["JavaScript", "HTML", "CSS"],
+        "live_link": "https://timb15.github.io/Tech-Degree-Project-2/",
+        "github_link": "https://github.com/timb15/Tech-Degree-Project-2",
+        "img_urls": ["/images/project-2.jpg", "/images/project-2.1.jpg"]
+    },
+    {
+        "id": 2,
+        "project_name": "Interactive Form",
+        "description": "A form to register for a conference with multiple selectable options.",
+        "technologies": ["JavaScript", "HTML", "CSS", "Jquery"],
+        "live_link": "https://timb15.github.io/Tech-Degree-Project-3/",
+        "github_link": "https://github.com/timb15/Tech-Degree-Project-3",
+        "img_urls": ["/images/project-3.jpg", "/images/project-3.1.jpg", "/images/project-3.2.jpg"]
+    },
+    {
+        "id": 3,
+        "project_name": "Phrase Hunter Game",
+        "description": "A game where the user has to guess the hidden phrase on the screen.",
+        "technologies": ["JavaScript", "HTML", "CSS"],
+        "live_link": "https://timb15.github.io/Tech-Degree-Project-4/",
+        "github_link": "https://github.com/timb15/Tech-Degree-Project-4",
+        "img_urls": ["/images/project-4.jpg", "/images/project-4.1.jpg", "/images/project-4.2.jpg", "/images/project-4.3.jpg"]
+    },
+    {
+        "id": 4,
+        "project_name": "Employee Directory",
+        "description": "An employee directory made from an API request. It generates 12 random employees and their information.",
+        "technologies": ["JavaScript", "HTML", "CSS", "Jquery", "API"],
+        "live_link": "https://timb15.github.io/Tech-Degree-Project-5/",
+        "github_link": "https://github.com/timb15/Tech-Degree-Project-5",
+        "img_urls": ["/images/project-5.jpg", "/images/project-5.1.jpg", "/images/project-5.2.jpg", "/images/project-5.3.jpg"]
+    }]
+}

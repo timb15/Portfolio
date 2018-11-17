@@ -2,46 +2,42 @@ extends layout.pug
 
 block content 
   nav.grid-container.portfolio-breadcrumb
-    a(href='/') ← Back
+    a(href='/') ← HOME
   article.grid-container.portfolio-intro.portfolio-project
     .grid-x
       .cell.small-6.medium-9.large-9
+        h1#my-name Tim Blacquier
 
-        //- Add your name.
-        h1 Name
+        p#my-description.lead.text-light
+          | Full Stack JavaScript Developer
 
-        //- Feel free personalize the title below
-        p.lead.text-light
-          | Full Stack JavaScript Developer.
-
-        //- Replace the boilerplate below with your Elevator pitch below.
-        .portfolio-bio
+        #bio.portfolio-bio
           p
-            | This is my elevator pitch. It is the elevator pitch to end all elevator pitches. Your mind is blown. Your mortal brain can scarcely process how well my prior experience maps to your open dev position. 
-            | This is my elevator pitch. It is the elevator pitch to end all elevator pitches. Your mind is blown. Your mortal brain can scarcely process how well my prior experience maps to your open dev position.
-            | This is my elevator pitch. It is the elevator pitch to end all elevator pitches. Your mind is blown. Your mortal brain can scarcely process how well my prior experience maps to your open dev position.
-      .cell.portfolio-meta.small-6.medium-2.large-3
+            | I am currently a student in the Treehouse Full Stack Developer Tech-Degree. I stumbled into the world of programming
+            | as I was looking for ways to advance my current carrer as a Power Engineer. I liked it so much I have 
+            | decided to make a change and pursue a career in Full Stack web development. I am a highly skilled problem solver
+            | and love a good challenge. I also really enjoy learning new skills and I believe that is a valuable asset in the tech industry.
+            | I am taking a certificate course in Project Management as well, and will be specializing in Agile Project Management.
+            | After reviewing my portfolio, please feel free to reach out if you would like to know more!   
+      #skill-tree.cell.portfolio-meta.small-6.medium-2.large-3
         h6 Skills
-
-        //- Replace the text in the li tags below with your own skills.  At this point, you should be able to list at least ten skills.
         ul
+          li JavaScript
           li Express
-          li Other cool stuff
-          li Listing my skills
-          li Etc.
-          li Etc. 
-          li Etc.
+          li node.js
+          li HTML
+          li CSS 
+          li JQuery
+          li AJAX
+          li Pug
+          li Project Management
         h6 Contact Info
 
-        //- Add your own contact info
         ul
-          li 555-555-1234
-          li email@email.com
+          li 1-604-778-4862
+          li tblacq87@gmail.com
 
-        //- Add URLs to the hrefs below to link to your social media accounts.
-        a.button.expanded(href='') LinkedIn
-        a.button.expanded(href='') GitHub
-        a.button.expanded(href='') Twitter
-  nav.grid-container.portfolio-breadcrumb
-    a(href='/') ← Back
+        a.button.expanded(href='https://ca.linkedin.com/in/tim-blacquier-a552398b' target='_blank') LinkedIn
+        a.button.expanded(href='https://github.com/timb15' target='_blank') GitHub
+
   

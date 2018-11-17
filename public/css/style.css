@@ -1,6 +1,7 @@
 
-h1,h2,h3,h4,h5,p{
+h1,h2,h3,h4,h5,h6,p{
   font-family: 'Merriweather', serif;
+  color: #fff;
 }
 
   h5{
@@ -19,7 +20,7 @@ h1,h2,h3,h4,h5,p{
 
   p{
     font-size: 15px;
-    color: #666;
+    color: rgb(255, 255, 255);
   }
 
 .round{
@@ -27,30 +28,31 @@ h1,h2,h3,h4,h5,p{
 }
 
 .text-light{
-  color: #666;
+  color: rgb(255, 255, 255);
 }
 
 .button{
-  background-color: #333;
+  background-color: #01014e;
+  border: solid #fff 1px;
 }
 
 .button:hover{
-  background-color: #111;
+  background-color: #fff;
+  color: #111;
 }
 
 a{
-  color: #333;
+  color: #fff;
 }
 
 a:hover{
-  color: #111;
+  color: rgb(3, 172, 250);
 }
 
 .image{
   display: inline-block;
   max-width: 100%;
   margin-bottom: 1rem;
-  border: solid 4px #fefefe;
   border-radius: 0;
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
   line-height: 0;
@@ -58,9 +60,10 @@ a:hover{
 
 .portfolio-me{
   padding: 20px;
-  background: #121213;
+  background: #01014e;
   color: #fff;
   box-shadow: none !important;
+  border-right: solid #fff 1px;
 }
 
   .portfolio-me p{
@@ -79,13 +82,14 @@ a:hover{
   }
 
   .portfolio-me a:hover{
-    color: #999;
+    color: rgb(3, 172, 250);
   }
 
 .portfolio-breadcrumb{
   margin: 0;
   padding: 20px;
   border-bottom: 1px solid #eaeaea;
+  color: #fff;
 }
 
  .portfolio-breadcrumb a{
@@ -117,7 +121,7 @@ a:hover{
   }
 
   .portfolio-index a{
-    color: #222;
+    color: #fff;;
   }
 
   .portfolio-index .cell{
@@ -142,9 +146,13 @@ a:hover{
 
 .portfolio-project li{
   font-size: 13px;
-  color: #444;
+  color: #fff;
 }
 
 .portfolio-bio{
     line-height: 25px;
+}
+
+body{
+  background-color: rgb(0, 0, 0);
 }
