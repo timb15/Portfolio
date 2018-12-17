@@ -26,16 +26,9 @@ html(class="no-js" lang="en" dir="ltr")
             br
             br
             h5 Projects
-            a(href='/projects/0') Random Quote Generator
-            br
-            a(href='/projects/1') List Pagination
-             br
-            a(href='/projects/2') Interactive Form
-             br
-            a(href='/projects/3') Phrase Hunter Game
-             br
-            a(href='/projects/4') Employee Directory
-
+            each project in projects
+              a.project(href=`/projects/${project.id}`) #{project.project_name}
+              br
     .off-canvas-content(data-off-canvas-content='')
       .title-bar.hide-for-large
         .title-bar-left

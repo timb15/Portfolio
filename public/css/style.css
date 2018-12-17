@@ -156,3 +156,8 @@ a:hover{
 body{
   background-color: rgb(0, 0, 0);
 }
+
+.project{
+  border-left: 1px solid gold;
+  padding-left: 5px;
+}

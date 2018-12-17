@@ -6,7 +6,7 @@ const projects = data.projects;
 
 //renders the home page of the website
 router.get('/', (req, res) => {
-        res.render('index', { projects});   
+        res.render('index', { projects });   
 });
 
 module.exports = router;

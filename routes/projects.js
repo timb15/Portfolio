@@ -15,7 +15,7 @@ router.get('/:id',(req, res) => {
     const techs = project.technologies;
     const imgs = project.img_urls;
 
-    res.render('project', { project, techs, imgs });
+    res.render('project', { projects, project, techs, imgs });
 });
 
 module.exports = router;

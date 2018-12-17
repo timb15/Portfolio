@@ -6,19 +6,19 @@
 
 $('#my-name')
     .hide()
-    .slideDown(1000);
+    .slideDown(500);
 
 $('#my-description')
     .hide()
-    .delay(1000)
-    .fadeIn(1000);
+    .delay(500)
+    .fadeIn(500);
 
 $('#bio')
     .hide()
-    .delay(2000)
-    .slideDown(1000);
+    .delay(1000)
+    .slideDown(500);
 
 $('#skill-tree')
     .hide()
-    .delay(3000)
-    .slideToggle(1000);
+    .delay(1500)
+    .slideToggle(500);
