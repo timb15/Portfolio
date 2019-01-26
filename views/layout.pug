@@ -14,10 +14,10 @@ html(class="no-js" lang="en" dir="ltr")
         block sidebar
           br
           .cell.shrink
-            img.thumbnail(src='/images/profile-pic.jpg')
+            img.thumbnail(src='/images/profilePic.jpg')
           .cell.auto
 
-            h5 Tim Blacquier
+            h5.my-name Tim Blacquier
 
             p.text-light
               | Full Stack Developer
@@ -25,7 +25,7 @@ html(class="no-js" lang="en" dir="ltr")
             a(href='/about') Learn More →
             br
             br
-            h5 Projects
+            h5.my-name Projects
             each project in projects
               a.project(href=`/projects/${project.id}`) #{project.project_name}
               br
@@ -43,5 +43,5 @@ html(class="no-js" lang="en" dir="ltr")
   script(src='/static/js/vendor/what-input.js')
   script(src='/static/js/vendor/foundation.js')
   script(src='/static/js/scripts.js')
-  script(src='/static/js/animate.js')
+  //- script(src='/static/js/animate.js')
   
