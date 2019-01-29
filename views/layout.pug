@@ -17,18 +17,16 @@ html(class="no-js" lang="en" dir="ltr")
             img.thumbnail(src='/images/profilePic.jpg')
           .cell.auto
 
-            h5.my-name Tim Blacquier
+            a(href="/").my-name Tim Blacquier
 
             p.text-light
               | Full Stack Developer
 
-            a(href='/about') Learn More →
+            a(href='/about') About me
             br
             br
-            h5.my-name Projects
-            each project in projects
-              a.project(href=`/projects/${project.id}`) #{project.project_name}
-              br
+            a(href="/allprojects").projects-title Selected Projects →
+
     .off-canvas-content(data-off-canvas-content='')
       .title-bar.hide-for-large
         .title-bar-left

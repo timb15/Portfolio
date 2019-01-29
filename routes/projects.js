@@ -9,7 +9,7 @@ router.get('/', (req, res) => {
 });
 
 //dynamically renders a project page based on the id of the project
-router.get('/:id',(req, res) => {
+router.get('/:id', (req, res) => {
     const id = parseFloat(req.params.id);
     const project = projects[id]
     const techs = project.technologies;

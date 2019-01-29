@@ -11,10 +11,12 @@ app.set('view engine', 'pug');
 const mainRoute = require('./routes');
 const aboutRoute = require('./routes/about');
 const projectRoutes = require('./routes/projects');
+const allProjectsRoute = require('./routes/allprojects')
 
 app.use(mainRoute);
 app.use('/about', aboutRoute);
 app.use('/projects', projectRoutes);
+app.use('/allprojects', allProjectsRoute)
 
 //creates a custon error message and status code
 app.use((req, res, next) => {

@@ -2,38 +2,50 @@ extends layout.pug
 
 block content 
   nav.grid-container.portfolio-breadcrumb
-    a(href='/') ← HOME
+    span
+      a(href='/') ← HOME
+      | ------
+      a(href="/allprojects") PROJECTS 
   article.grid-container.portfolio-intro.portfolio-project
     .grid-x
       .cell.small-6.medium-9.large-9
-        h1#my-name Tim Blacquier
-
-        p#my-description.lead.text-light
-          | Full Stack JavaScript Developer
+        h1#my-name Tim Blacquier, 
+        h5 Full Stack JavaScript Developer
+        <br/>
+        h6#my-description.lead.text-light
+          | A little about me
 
         #bio.portfolio-bio
           p
-            | I am currently a student in the Treehouse Full Stack Developer Tech-Degree. I stumbled into the world of programming
-            | as I was looking for ways to advance my current carrer as a Power Engineer. I liked it so much I have 
-            | decided to make a change and pursue a career in Full Stack web development. I am a highly skilled problem solver
-            | and love a good challenge. I also really enjoy learning new skills and I believe that is a valuable asset in the tech industry.
-            | I am taking a certificate course in Project Management as well, and will be specializing in Agile Project Management.
-            | After reviewing my portfolio, please feel free to reach out if you would like to know more!   
+            | I wandered into the world of programming while I was looking for ways to advance my profession as a 
+            | power engineer. I liked it so much, I decided to dive-in head first and pursue a career in 
+            | full-stack development. I am a recent graduate from 
+            a(href='https://teamtreehouse.com' target='_blank').my-name Team Treehouse's 
+            | Full-Stack Tech Degree program.
+            <br/>
+            <br/>
+            | I’m enjoying how coding is helping me stretch, strive, and grow in new ways and apply my systems-thinking 
+            | mindset to solve problems, crush challenges, and continuously learn by doing.
+            <br/>
+            <br/>
+            | I am currently working towards a certficate in Agile Project Management at the UBC Sauder School of
+            | Business as well.
+            <br/>
+            <br/>
+            | When I’m not coding, you can find me hanging out with my dog, playing hockey and cheering on the Leafs, 
+            | planning my next scuba diving trip, or playing video games.
+   
       #skill-tree.cell.portfolio-meta.small-6.medium-2.large-3
         h6 Skills
         ul
           li JavaScript
-          li Express
-          li React
           li Node
+          li React
+          li Express
           li SQL
-          li Mongodb
+          li NoSQL
           li HTML
           li CSS 
-          li JQuery
-          li AJAX
-          li Pug
-          li Project Management
         h6 Contact Info
 
         ul

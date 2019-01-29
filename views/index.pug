@@ -1,22 +1,21 @@
 extends layout.pug
 
-block content 
-  article.grid-container.portfolio-intro
-    div.index-header
-      h1 Welcome!
-      p.lead.text-light.welcome
-        | Thank you for visiting my site. I am continually adding new work to my portfolio. 
-        | The projects below are listed in order of most recent. Links to the Github repo for each project can be 
-        | found on the project pages. If you have any questions, please feel free to 
-        a(href='/about').contact contact me.
-  article.grid-container.portfolio-index
-    
-    .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
-     
-    each project in projects
-      .cell
-        a(href=`/projects/${project.id}`)
-          h5 #{project.project_name}
-          img(src= `${project.img_urls[0]}`)
+block content
+  nav.grid-container.portfolio-breadcrumb
+    a(href="/allprojects") PROJECTS
+  article.grid-container.portfolio-intro.portfolio-project
+    .grid-x
+      .cell.small-6.medium-9.large-9
+        h1 Hello World!
+        p.welcome
+          |My name is Tim Blacquier, I'm a curiosity-driven full-stack web developer.
+          |Thank you for dropping by and I hope you stick around and check out some of my work featured on my 
+          a(href='/allprojects').my-name Selected Projects page.
+          <br/>
+          <br/>
+          |This site was built using Node.js and Express. You can view the Github repo for this and any of my other projects
+          a(href='https://github.com/timb15' target='_blank').my-name  here!
+ 
+  
           
       

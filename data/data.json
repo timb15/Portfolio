@@ -11,6 +11,7 @@
         "React",
         "Node"
       ],
+      "icon": "/images/backpack.svg",
       "github_link": "https://github.com/timb15/Tech-Degree-Project-10",
       "img_urls": [
         "/images/project-8.jpg",
@@ -33,6 +34,7 @@
         "PUG",
         "CSS"
       ],
+      "icon": "/images/library.svg",
       "github_link": "https://github.com/timb15/TechDegree-Project-8",
       "img_urls": [
         "/images/project-7.jpg",
@@ -50,6 +52,7 @@
         "Node",
         "API"
       ],
+      "icon": "/images/photos.svg",
       "github_link": "https://github.com/timb15/tech-degree-project-7",
       "img_urls": [
         "/images/project-6.jpg",
@@ -69,6 +72,7 @@
         "Jquery",
         "API"
       ],
+      "icon": "/images/directory.svg",
       "live_link": "https://timb15.github.io/Tech-Degree-Project-5/",
       "github_link": "https://github.com/timb15/Tech-Degree-Project-5",
       "img_urls": [
@@ -87,6 +91,7 @@
         "HTML",
         "CSS"
       ],
+      "icon": "/images/game.svg",
       "live_link": "https://timb15.github.io/Tech-Degree-Project-4/",
       "github_link": "https://github.com/timb15/Tech-Degree-Project-4",
       "img_urls": [
@@ -106,6 +111,7 @@
         "CSS",
         "Jquery"
       ],
+      "icon": "/images/form.svg",
       "live_link": "https://timb15.github.io/Tech-Degree-Project-3/",
       "github_link": "https://github.com/timb15/Tech-Degree-Project-3",
       "img_urls": [
@@ -123,6 +129,7 @@
         "HTML",
         "CSS"
       ],
+      "icon": "/images/students.svg",
       "live_link": "https://timb15.github.io/Tech-Degree-Project-2/",
       "github_link": "https://github.com/timb15/Tech-Degree-Project-2",
       "img_urls": [
@@ -139,6 +146,7 @@
         "HTML",
         "CSS"
       ],
+      "icon": "/images/quotes.svg",
       "live_link": "https://timb15.github.io/Tech-Degree-Project-1/",
       "github_link": "https://github.com/timb15/Tech-Degree-Project-1",
       "img_urls": [
