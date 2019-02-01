@@ -2,11 +2,11 @@
   "projects": [
     {
       "id": 0,
-      "project_name": "Full Stack React App",
-      "description": "Using a REST API, and front end React users can manage courses for a school.",
+      "project_name": "Full-Stack React App",
+      "description": "A React web app thst uses a REST API that I built. Users can manage courses for a school.",
       "technologies": [
         "JavaScript",
-        "MongoDb",
+        "MongoDB",
         "Express",
         "React",
         "Node"
@@ -25,7 +25,7 @@
     {
       "id": 1,
       "project_name": "SQL Library Manager",
-      "description": "An Express web app that tracks book inventory. Books can be created, updated and deleted from the database.",
+      "description": "An Express web app that manages book inventory for a library. Books can be created, updated, and deleted from the database.",
       "technologies": [
         "JavaScript",
         "Express",
@@ -45,7 +45,7 @@
     {
       "id": 2,
       "project_name": "React Photo Gallery",
-      "description": "A react web app that displays photos from Flickr.",
+      "description": "A React web app that displays photos from Flickr.",
       "technologies": [
         "JavaScript",
         "React",
@@ -64,12 +64,12 @@
     {
       "id": 3,
       "project_name": "Employee Directory",
-      "description": "An employee directory made from an API request. It generates 12 random employees and their information.",
+      "description": "An employee directory made from an API request. It generates 12 random employees and displays their information.",
       "technologies": [
         "JavaScript",
         "HTML",
         "CSS",
-        "Jquery",
+        "jQuery",
         "API"
       ],
       "icon": "/images/directory.svg",
@@ -85,7 +85,7 @@
     {
       "id": 4,
       "project_name": "Phrase Hunter Game",
-      "description": "A game where the user has to guess the hidden phrase on the screen.",
+      "description": "A game where the user has to guess a hidden phrase.",
       "technologies": [
         "JavaScript",
         "HTML",
@@ -109,7 +109,7 @@
         "JavaScript",
         "HTML",
         "CSS",
-        "Jquery"
+        "jQuery"
       ],
       "icon": "/images/form.svg",
       "live_link": "https://timb15.github.io/Tech-Degree-Project-3/",
